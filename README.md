@@ -8,7 +8,7 @@ The training dataset contains 2442 images of the Airbus A320 model and 2309 imag
 
 **Warning 1: Unfortunately it is not possible to provide the images used in the training and validation of the network due to the restricted Copyright policy.**
 
-**Warning 2: I have used the images stored in my Google Drive account. However, you can change the path string that contains your own local or remote image set.**
+**Warning 2: Since I used Google Colab for evaluating the model, I have used the images stored in my Google Drive account. However, you can change the path string that contains your own local or remote image set.**
 
 ## Experiments
 The model was developed in the Python programming language with the following libraries:
