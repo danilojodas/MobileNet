@@ -6,10 +6,10 @@ A MobileNetV1 network was developed to identify images of the airplane models Ai
 
 The training dataset contains 2442 images of the Airbus A320 model and 2309 images of the Boeing 737. The validation dataset contains 487 images of the Airbus A320 and 335 images of the Boeing 737.
 
-**Obs: Unfortunatley it is not possible to provide the images used in the training and validation of the network due to the Copyright policy. However, the trained model is available for further refinement.**
+**Obs: Unfortunately it is not possible to provide the images used in the training and validation of the network due to the Copyright policy. However, the trained model is available for further refinement.**
 
 ### Training and validation loss
-The following plots depict the training and validation loss resulting from the training process of the MobileNet model.
+The following plots depict the training and validation loss resulting from the training process of the MobileNetV1 model.
 
 ![accuracy_mbnet_v1](https://user-images.githubusercontent.com/39133414/65028039-c12af480-d911-11e9-9078-083182ba3fcf.jpg)
 
