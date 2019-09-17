@@ -11,18 +11,18 @@ The training dataset contains 2442 images of the Airbus A320 model and 2309 imag
 ## Experiments
 The model was developed in the Python programming language with the following libraries:
 
-**Keras: version 2.2.5
-**TensorFlow: version 1.14.0
-**Platform: Google Colab
+**Keras: version 2.2.5**  
+**TensorFlow: version 1.14.0**  
+**Platform: Google Colab**  
 
 The CNN model was built with the following configuration:
 
-**Batch size: 32**
-**Epochs: 200**
-**Optimizer: Adam**
-**Learning rate: starting from 0.001
-**Width multiplier: 1
-**Resolution multiplier: 1
+**Batch size: 32**  
+**Epochs: 200**  
+**Optimizer: Adam**  
+**Learning rate: starting from 0.001**  
+**Width multiplier: 1**  
+**Resolution multiplier: 1**  
 
 The learning rate starts in 0.001. If no improvement in the validation loss is obtained after 10 epochs, the learning rate is reduced by a factor of 0.7. The minimum value of the learning rate was set to 0.0001. The width multiplier represents the factor by which the number of filters is reduced when the images flow through the network layers. In general, values between 0.5 and 1 are assigned to the width multiplier. The resolution multiplier is used to reduce the resolution of the input images. The reader are invited to see more information about the hyperparameters of the MobileNetV1 model in the original paper available in [arXiv.org](https://arxiv.org/pdf/1704.04861.pdf).
 
@@ -35,6 +35,11 @@ The following plots depict the training and validation loss resulting from the t
 
 The network stabilized after 50 epochs as can be seen in the above pictures. The following images depict the performance of the trained model in images not beloging to the validation set.
 
+![A320_4](https://user-images.githubusercontent.com/39133414/65041802-e4fc3380-d92d-11e9-87b2-27983b6ad815.jpg)
 
+![B737_2](https://user-images.githubusercontent.com/39133414/65041811-e9c0e780-d92d-11e9-84d0-915aa07b84bc.jpg)
 
-## Future works
+## Images license
+Boeing 737: [Click here to see the original photo](https://all-free-download.com/free-photos/download/air-china-boeing-737-79l-red-peony-livery-b-5211_517110.html). Distributed under the Creative commons license **ShareAlike**
+
+Airbus A320: [Click here to see the original photo](https://all-free-download.com/free-photos/download/airbus-a320-214_517133.html). Distributed under the Creative commons license **ShareAlike**
