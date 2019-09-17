@@ -6,7 +6,9 @@ A MobileNetV1 network was developed to identify images of the airplane models Ai
 
 The training dataset contains 2442 images of the Airbus A320 model and 2309 images of the Boeing 737. The validation dataset contains 487 images of the Airbus A320 and 335 images of the Boeing 737. Therefore, 4751 images were used for training the model and 822 images were used for validation.
 
-**Obs: Unfortunately it is not possible to provide the images used in the training and validation of the network due to the restricted Copyright policy.**
+**Warning 1: Unfortunately it is not possible to provide the images used in the training and validation of the network due to the restricted Copyright policy.**
+
+**Warning 2: I have used the images stored in my Google Drive account. However, you can change the path string that contains your own local or remote image set.**
 
 ## Experiments
 The model was developed in the Python programming language with the following libraries:
@@ -25,8 +27,6 @@ The CNN model was built with the following configuration:
 **Resolution multiplier: 1**  
 
 The learning rate starts in 0.001. If no improvement in the validation loss is obtained after 10 epochs, the learning rate is reduced by a factor of 0.7. The minimum value of the learning rate was set to 0.0001. The width multiplier represents the factor by which the number of filters is reduced when the images flow through the network layers. In general, values between 0.5 and 1 are assigned to the width multiplier. The resolution multiplier is used to reduce the resolution of the input images. The reader are invited to see more information about the hyperparameters of the MobileNetV1 model in the original paper available in [arXiv.org](https://arxiv.org/pdf/1704.04861.pdf).
-
-**Obs: I have used the images stored in my Google Drive account. However, you can change the path string that contains your own image set.*
 
 ### Training and validation loss
 The following plots depict the training and validation accuracy and loss resulting from the training process of the MobileNetV1 model.
