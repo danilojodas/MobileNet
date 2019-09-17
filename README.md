@@ -17,9 +17,9 @@ The model was developed in the Python programming language with the following li
 
 The CNN model was built with the following configuration:
 
-**Batch size: 32
-**Epochs: 200
-**Optimizer: Adam
+**Batch size: 32**
+**Epochs: 200**
+**Optimizer: Adam**
 **Learning rate: starting from 0.001
 **Width multiplier: 1
 **Resolution multiplier: 1
