@@ -29,7 +29,7 @@ The learning rate starts in 0.001. If no improvement in the validation loss is o
 **Obs: I have used the images stored in my Google Drive account. However, you can change the path string that contains your own image set.*
 
 ### Training and validation loss
-The following plots depict the training and validation loss resulting from the training process of the MobileNetV1 model.
+The following plots depict the training and validation accuracy and loss resulting from the training process of the MobileNetV1 model.
 
 ![accuracy_mbnet_v1](https://user-images.githubusercontent.com/39133414/65028039-c12af480-d911-11e9-9078-083182ba3fcf.jpg)
 
