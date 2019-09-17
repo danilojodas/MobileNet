@@ -26,6 +26,8 @@ The CNN model was built with the following configuration:
 
 The learning rate starts in 0.001. If no improvement in the validation loss is obtained after 10 epochs, the learning rate is reduced by a factor of 0.7. The minimum value of the learning rate was set to 0.0001. The width multiplier represents the factor by which the number of filters is reduced when the images flow through the network layers. In general, values between 0.5 and 1 are assigned to the width multiplier. The resolution multiplier is used to reduce the resolution of the input images. The reader are invited to see more information about the hyperparameters of the MobileNetV1 model in the original paper available in [arXiv.org](https://arxiv.org/pdf/1704.04861.pdf).
 
+**Obs: I have used the images stored in my Google Drive account. However, you can change the path string that contains your own image set.*
+
 ### Training and validation loss
 The following plots depict the training and validation loss resulting from the training process of the MobileNetV1 model.
 
