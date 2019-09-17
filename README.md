@@ -13,8 +13,7 @@ The model was developed in the Python programming language with the following li
 
 **Keras: version 2.2.5
 TensorFlow: version 1.14.0
-Platform: Google Colab
-**
+Platform: Google Colab**
 
 The CNN model was built with the following configuration:
 
@@ -23,8 +22,7 @@ Epochs: 200
 Optimizer: Adam
 Learning rate: starting from 0.001
 Width multiplier: 1
-Resolution multiplier: 1
-**
+Resolution multiplier: 1**
 
 The learning rate starts in 0.001. If no improvement in the validation loss is obtained after 10 epochs, the learning rate is reduced by a factor of 0.7. The minimum value of the learning rate was set to 0.0001. The width multiplier represents the factor by which the number of filters is reduced when the images flow through the network layers. In general, values between 0.5 and 1 are assigned to the width multiplier. The resolution multiplier is used to reduce the resolution of the input images. The reader are invited to see more information about the hyperparameters of the MobileNetV1 model in the original paper available in [arXiv.org](https://arxiv.org/pdf/1704.04861.pdf).
 
