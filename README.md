@@ -1,5 +1,5 @@
 # Introduction
-This repository contains my own implementation of the MobileNet Convolutional Neural Network (CNN) developed in Python programming language with Keras and TensorFlow enabled for Graphic Processing Unit (GPU). The provided source-code contains two functions containing the implementations of the MobileNetV1 and MobileNetV2 architectures. A case study in a image set of two airplane models is also provided to evaluate the performance of the network.
+This repository contains my own implementation of the MobileNet Convolutional Neural Network (CNN) developed in Python programming language with Keras and TensorFlow enabled for Graphic Processing Unit (GPU). The provided source-code contains two functions representing the implementations of the MobileNetV1 and MobileNetV2 architectures. A case study in a image set of two airplane models is also provided to evaluate the performance of the network.
 
 ## Case study
 A MobileNetV1 network was developed to identify images of the airplane models Airbus A320 and Boeing 737. A dataset with over 2000 images of each airplane model was created to train the CNN model. Another dataset with over 300 images of each airplane model was also create to validate the performance of the network.
@@ -12,17 +12,17 @@ The training dataset contains 2442 images of the Airbus A320 model and 2309 imag
 The model was developed in the Python programming language with the following libraries:
 
 **Keras: version 2.2.5
-TensorFlow: version 1.14.0
-Platform: Google Colab**
+**TensorFlow: version 1.14.0
+**Platform: Google Colab
 
 The CNN model was built with the following configuration:
 
 **Batch size: 32
-Epochs: 200
-Optimizer: Adam
-Learning rate: starting from 0.001
-Width multiplier: 1
-Resolution multiplier: 1**
+**Epochs: 200
+**Optimizer: Adam
+**Learning rate: starting from 0.001
+**Width multiplier: 1
+**Resolution multiplier: 1
 
 The learning rate starts in 0.001. If no improvement in the validation loss is obtained after 10 epochs, the learning rate is reduced by a factor of 0.7. The minimum value of the learning rate was set to 0.0001. The width multiplier represents the factor by which the number of filters is reduced when the images flow through the network layers. In general, values between 0.5 and 1 are assigned to the width multiplier. The resolution multiplier is used to reduce the resolution of the input images. The reader are invited to see more information about the hyperparameters of the MobileNetV1 model in the original paper available in [arXiv.org](https://arxiv.org/pdf/1704.04861.pdf).
 
